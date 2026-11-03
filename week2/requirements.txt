@@ -1,0 +1,5 @@
+# Needed to run the agent against the real model (the tests do NOT need it or a key).
+anthropic
+pytest
+# Optional, only for the MCP stretch (mcp_server.py):
+# mcp

@@ -1,0 +1,7 @@
+# First time (you run it): fly launch --copy-config --no-deploy   then set secrets, then: fly deploy
+# Secrets are NOT set here. Use `fly secrets set`.
+#
+# TODO: choose a unique app name; add an [http_service] with internal_port 8080, force_https, and a health check on
+# /health (see demos/week4/deploy/fly.toml). Keep API keys and tokens out of [env].
+app = "agent-service-CHANGE-ME"
+primary_region = "sin"

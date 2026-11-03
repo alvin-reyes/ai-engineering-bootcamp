@@ -1,0 +1,21 @@
+# First time (Alvin or the learner runs it): fly launch --copy-config --no-deploy   then set secrets, then: fly deploy
+# Change the app name to something unique to you.
+app = "agent-service-CHANGE-ME"
+primary_region = "sin"
+
+[env]
+  APP_VERSION = "v1"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    path = "/health"
+    timeout = "5s"

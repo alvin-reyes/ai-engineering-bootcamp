@@ -1,0 +1,2 @@
+anthropic>=2.3.0
+mcp>=2.3.0        # Week 2 MCP demos (mcp_server.py / mcp_client.py)

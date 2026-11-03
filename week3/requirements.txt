@@ -1,0 +1,4 @@
+anthropic
+pytest
+# optional, for local embeddings (step "embedding hook" in the README):
+# sentence-transformers

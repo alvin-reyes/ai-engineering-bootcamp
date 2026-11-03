@@ -1,0 +1,10 @@
+{"id": "q01", "question": "How many days do customers have to return an unused bike?", "answerable": true, "source": "returns.md", "must_contain": "30 days"}
+{"id": "q02", "question": "How many business days do refunds take to arrive?", "answerable": true, "source": "returns.md", "must_contain": "5 business days"}
+{"id": "q03", "question": "How much does express delivery cost?", "answerable": true, "source": "shipping.md", "must_contain": "15 EUR"}
+{"id": "q04", "question": "Do you ship to Norway?", "answerable": true, "source": "shipping.md", "must_contain": "not ship"}
+{"id": "q05", "question": "How long is the frame warranty?", "answerable": true, "source": "warranty.md", "must_contain": "5 year"}
+{"id": "q06", "question": "How much does a basic service cost?", "answerable": true, "source": "repairs.md", "must_contain": "45 EUR"}
+{"id": "q07", "question": "When is the workshop open on Saturday?", "answerable": true, "source": "repairs.md", "must_contain": "10 am to 4 pm"}
+{"id": "q08", "question": "How many days of annual leave do full-time staff get?", "answerable": true, "source": "staff-handbook.md", "must_contain": "22 days"}
+{"id": "q09", "question": "Does Brightwater offer a trade-in programme for old bikes?", "answerable": false, "source": null, "must_contain": null}
+{"id": "q10", "question": "What is the CEO's salary?", "answerable": false, "source": null, "must_contain": null}
