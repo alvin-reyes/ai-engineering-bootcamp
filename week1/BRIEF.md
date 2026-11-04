@@ -5,7 +5,7 @@
 ## Builder track: a streaming CLI assistant
 
 A terminal chat app on an LLM API that remembers the conversation and can turn any reply into a structured summary.
-Python, tests with pytest. Start from the starter repo (link in the channel) or from `demos/week1/stream_chat.py`,
+Python, tests with pytest. Start from the starter repo ([github.com/alvin-reyes/ai-engineering-bootcamp](https://github.com/alvin-reyes/ai-engineering-bootcamp), folder `week1/`) or from `demos/week1/stream_chat.py`,
 but the code you hand in must be code you can explain.
 
 ### Acceptance criteria

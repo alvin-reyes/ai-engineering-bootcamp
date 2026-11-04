@@ -56,7 +56,7 @@ quiz 10 min; role map and capstone ideas 20 min. Most of the week is on your own
 |---|---|---|
 | Role map (from Week 0) | Tue 11-10, before session 1 | [where to submit] |
 | Lab notes | Fri 11-13, [time], with the build, before the showcase | [where to submit] |
-| Weekly build, Builder: repo with code and three tests | Fri 11-13, [time], before the showcase | Start from the starter repo (link in the channel); [where to submit] |
+| Weekly build, Builder: repo with code and three tests | Fri 11-13, [time], before the showcase | Start from the starter repo ([github.com/alvin-reyes/ai-engineering-bootcamp](https://github.com/alvin-reyes/ai-engineering-bootcamp), folder `week1/`); [where to submit] |
 | Weekly build, Operator: workspace folder, role `CLAUDE.md`, one skill, write-up of three cases | Fri 11-13, [time], before the showcase | [where to submit] |
 | Updated role map and two capstone ideas | Fri 11-13 | [where to submit] |
 
