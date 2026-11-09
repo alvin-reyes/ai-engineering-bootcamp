@@ -3,6 +3,7 @@
 Runs in-process: either by calling handle_ask directly, or on a free localhost port. No key, no network.
 """
 import json
+import time
 import threading
 import urllib.error
 import urllib.request
@@ -124,8 +125,13 @@ def test_token_works_over_http_and_the_key_is_never_echoed(server, monkeypatch, 
 def test_one_json_log_line_per_request_and_no_question_text(server, capsys):
     call(server + "/ask", {"question": "PRIVATE-QUESTION-TEXT"})
     call(server + "/health")
-    out = capsys.readouterr().out
-    lines = [json.loads(ln) for ln in out.splitlines() if ln.startswith("{")]
-    reqs = [ln for ln in lines if ln.get("path") in ("/ask", "/health")]
+    out, reqs = "", []
+    for _ in range(40):                      # the server logs from its own thread just after it replies
+        out += capsys.readouterr().out
+        lines = [json.loads(ln) for ln in out.splitlines() if ln.startswith("{")]
+        reqs = [ln for ln in lines if ln.get("path") in ("/ask", "/health")]
+        if len(reqs) >= 2:
+            break
+        time.sleep(0.05)
     assert len(reqs) == 2 and all({"status", "ms", "path"} <= set(r) for r in reqs)
     assert "PRIVATE-QUESTION-TEXT" not in out
