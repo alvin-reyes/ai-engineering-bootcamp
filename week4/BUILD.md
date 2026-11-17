@@ -1,7 +1,7 @@
 # Week 4 starter: make your capstone production-worthy
 
 This is the learner starter for the final build. You drop these pieces into **your own capstone** (not a toy), make
-the tests pass, and show it on demo day (Fri 4 Dec). Everything here is a skeleton: signatures, docstrings and
+the tests pass, and show it on demo day (Fri 11 Dec). Everything here is a skeleton: signatures, docstrings and
 `# TODO:` markers. You write the code, and you must be able to explain every line of it. If an AI helps you write it,
 you still explain it.
 
@@ -68,7 +68,7 @@ missing: rotate it straight away.
   steps and show the result from your real workspace (ship it); keep an eval sheet with grades. Use `lab/attacks.json`
   as a list of ideas to type in by hand. Minutes saved must come from your own before and after runs.
 
-## Demo-day checklist (Fri 4 Dec, 10 minutes: 5 live, 2 evals, 3 questions)
+## Demo-day checklist (Fri 11 Dec, 10 minutes: 5 live, 2 evals, 3 questions)
 
 Final build due Friday at [time], before demo day (your trainer confirms the time in Discord). Backup recording made on
 Thursday after Session 2.

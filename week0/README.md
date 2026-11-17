@@ -3,7 +3,7 @@
 *Your week at a glance · about 6 to 8 hours · both tracks*
 
 Week 0 is onboarding week (Mon 2026-11-02 to Fri 2026-11-06). The goal: by Friday your tools work, you have run
-your first build, and your role map is started. Week 1 starts with its first live session on Tuesday 2026-11-10.
+your first build, and your role map is started. Week 1 starts with its first live session on Tuesday 2026-11-17.
 Times marked [time] are confirmed in the channel.
 
 ## Day by day
@@ -30,14 +30,14 @@ Times marked [time] are confirmed in the channel.
 - [ ] First build run (Wed 11-04)
 - [ ] Readings 1 to 7 read, self-checks tried (Thu 11-05)
 - [ ] Track reading done: Builder prework (8) or Operator guide (9) (Thu 11-05)
-- [ ] Role map written: 10 tasks, how often, how long (Fri 11-06; due before Week 1 session 1 on Tue 11-10 at the latest)
+- [ ] Role map written: 10 tasks, how often, how long (Fri 11-06; due before Week 1 session 1 on Tue 11-17 at the latest)
 - [ ] One question posted in the channel (Fri 11-06)
 
 ## What you hand in
 
 | Deliverable | Due | How |
 |---|---|---|
-| Role map (10 tasks, frequency, duration) | Before Week 1 session 1 (Tue 11-10); aim for Fri 11-06 | [where to submit] |
+| Role map (10 tasks, frequency, duration) | Before Week 1 session 1 (Tue 11-17); aim for Fri 11-06 | [where to submit] |
 | Tracker status: email, Claude seat, Claude Code, channel, track tools, first build | Fri 11-06 | Tell Alvin in the channel if any item is blocked, and why |
 
 Nothing else is graded this week. Never put keys, passwords or private data in anything you hand in.

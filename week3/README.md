@@ -79,4 +79,4 @@ minutes. You are checked against the capstone rubric, not ranked against anyone,
 - Change one thing at a time, so you know what moved the number.
 - Behind by Day 2 (Wednesday)? Say so early. A smaller build with a real before and after number beats a big one with none.
 
-*Dates this week: Tuesday 24 November to Friday 27 November. VERIFY: holidays for the cohort's location (Thursday 26 November is US Thanksgiving; the cohort is likely in the Philippines, where it is not a holiday). A public holiday can move a live session or a deadline.*
+*Dates this week: Tuesday 1 December to Friday 4 December. VERIFY: holidays for the cohort's location. A public holiday can move a live session or a deadline.*

@@ -26,7 +26,7 @@ def build_request(stable, question, dynamic="", *, model=MODEL, max_tokens=512, 
 
 
 def find_volatile(text) -> list:
-    """Things in `text` that probably change between calls: dates and timestamps (2026-12-01T10:00:00), clock times
+    """Things in `text` that probably change between calls: dates and timestamps (2026-12-08T10:00:00), clock times
     (14:35) and uuids. Returns the matched strings; [] means the text looks stable. Use it on your stable prefix."""
     # TODO: implement with re
     raise NotImplementedError("find_volatile")

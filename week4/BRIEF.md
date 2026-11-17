@@ -19,7 +19,7 @@ Rules for both: drafts only for outbound, read-only by default, no secrets in fi
 
 ## Demo day
 
-- Date and place: Fri 4 Dec, showcase day, [time, link].
+- Date and place: Fri 11 Dec, showcase day, [time, link].
 - Final build due Friday at [time], before demo day. Your backup recording is made on Thursday, after Session 2.
 - One after another, strict time. Presentation order: [order set by your trainer].
 - Each slot is **10 minutes**: 5 minutes live demo, 2 minutes of evals, 3 minutes of questions. A visible timer cuts at 10:00. Demo day is Friday, 60 minutes: 10 to open, four slots, 10 to close.
